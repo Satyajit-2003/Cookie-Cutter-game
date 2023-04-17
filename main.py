@@ -80,7 +80,7 @@ while True:
     # Decrement the timer and end the game if time runs out
     timer -= 1
     if timer == 0:
-        pass
+        break
 
     # Increment the score and end the game if the score is high enough
     if score > 500:
